@@ -1,0 +1,43 @@
+{
+    "recipes": [
+        {
+        "id": 1,
+        "name": "Hamburger",
+        "imageUrl": "",
+
+        "steps": [],
+        "difficulty": "Medium",
+        "cookTime": "18 mins",
+        "cuisineType": "asian",
+        "mealType": "lunch",
+        "nutritional": "full of calories",
+        "isVegan": false,
+        "isVegetarian": false,
+        "isLactoseFree": false,
+        "isGlutenFree": false,
+
+        "ingredients": [
+            {
+            "quantity": 2,
+            "ingredient": {}
+            }
+        ],
+        "mainIngredients": [{}],
+
+        "minServes": 2,
+        "maxServes": 3,
+
+        "rating": 5.6,
+        "ratingCount": 36,
+        "reviews": [],
+        "views": 36,
+        "openedCount": 48,
+        "savedCount": 2,
+        "tags": ["tag1", "tag2", "tag3"],
+        "fullUrl": "",
+
+        "date": "",
+        "author": ""
+        }
+    ]
+}
