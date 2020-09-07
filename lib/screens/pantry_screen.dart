@@ -29,7 +29,7 @@ class _PantryScreenState extends State<PantryScreen> {
   // Category ingredients
   final List<Map<String, dynamic>> loadedCategoriesIngredients =
       DATA['categoryIngredients'];
-      
+
   List<String> allIngredients = [];
 
   List<Map<String, dynamic>> categoriesIngredients = [];
@@ -337,7 +337,7 @@ class _PantryScreenState extends State<PantryScreen> {
                                               backgroundColor:
                                                   Theme.of(context).accentColor,
                                               child: Image.asset(
-                                                "images/logo.png",
+                                                "images/icon/${cat['category']}.png",
                                               ),
                                             ),
                                             title: Text("${cat['category']}"),
